@@ -15,7 +15,7 @@ nlp = spacy.load("en_core_web_sm")
 #services 5%
 #data intialization
 weight_vec = [5, 20, 20, 5, 20, 20, 5, 5]
-data_matrix = np.array([["Fraser_Heights_Secondary", "North_Surrey_Secondary", "Semiahmoo_Secondary", "Pacific_Academy", "Earl_Haig", "Colonel_Bay", "Newburry_Park", "Saint_Georges"],
+data_matrix = np.array([["Fraser_Heights_Secondary", "North_Surrey_Secondary", "Semiahmoo_Secondary", "Pacific_Academy", "Colonel_Bay", "Newburry_Park", "Saint_Georges"],
               ["MIT", "Stanford", "Harvard", "Princeton", "Caltech", "Upenn", "Cornell", "UofToronto", "UofWaterloo", "UofTokyo", "Tsinghua", "Peking", "Cambridge", "Oxford"],
               ["Computer_Science", "Electricial_Engineering", "Software_Engineering", "Computer_Engineering", "Politics", "Biology", "Chemistry", "Pre-Med", "Statistics", "Psychology", "Business", "Econ"],
               ["USA", "India", "Canada", "China", "Korea", "Japan", "Germany", "Russia", "Brazil", "France", "Spain", "UK", "Italy", "Norway", "Jamaica"],
